@@ -72,8 +72,8 @@ Your function should transform the data into the following format:
 2. Implement error handling for API requests.
 3. Handle missing data (like P3 missing from analytics) gracefully.
 5. Create a searchProducts(aggregatedData, searchTerm, filters) function that can:
-   a. Search by product name (case-insensitive partial match)
-  b. Filter by category, inventory status, or price range
+  - Search by product name (case-insensitive partial match)
+  - Filter by category, inventory status, or price range
 8. Implement a simple cache mechanism to avoid redundant API calls. (optional)
 
 # Evaluation Criteria
