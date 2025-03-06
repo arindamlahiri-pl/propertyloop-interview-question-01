@@ -67,20 +67,25 @@ Your function should transform the data into the following format:
 ]
 ```
 
-# Implementation Requirements
+## Implementation Requirements
 1. Create a function aggregateProductData() that fetches and combines the data from all three endpoints.
 2. Implement error handling for API requests.
 3. Handle missing data (like P3 missing from analytics) gracefully.
-4. Create a searchProducts(aggregatedData, searchTerm, filters) function that can:
+4. Create a `searchProducts(aggregatedData, searchTerm, filters)` function that can:
    - Search by product name (case-insensitive partial match)
    - Filter by category, inventory status, or price range
 5. Implement a simple cache mechanism to avoid redundant API calls. (optional)
 
-# Evaluation Criteria
+## Evaluation Criteria
 1. Proper handling of asynchronous operations
 2. Error handling and edge cases (missing data)
 3. Code organization and clarity
-4. Maintenable code
+4. Maintainable code
 5. Efficiency of the data transformation
 6. Correct implementation of search/filter functionality
 7. Implementation of caching mechanism
+
+## Additional information
+1. You will have a total of 25 minutes for this question.
+2. Code your solution in this Typescript sandbox [here](https://codesandbox.io/p/devbox/typescript-playground-export-forked-6z8mmw?workspaceId=ws_Qd8Yq13nXDQ8o28PXL3wys)
+   - Sign in using Github and fork this sandbox
