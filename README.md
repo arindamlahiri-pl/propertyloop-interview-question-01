@@ -68,7 +68,7 @@ Your function should transform the data into the following format:
 ```
 
 ## Implementation Requirements
-1. Create a function aggregateProductData() that fetches and combines the data from all three endpoints.
+1. Create a function `aggregateProductData()` that fetches and combines the data from all three endpoints.
 2. Implement error handling for API requests.
 3. Handle missing data (like P3 missing from analytics) gracefully.
 4. Create a `searchProducts(aggregatedData, searchTerm, filters)` function that can:
