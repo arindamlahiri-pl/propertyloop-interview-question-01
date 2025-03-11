@@ -78,8 +78,6 @@ Your function should transform the data into the following format:
 
 ## Additional information
 1. You will have a total of 25 minutes for this question.
-2. Code your solution in the Typescript sandbox [here](https://codesandbox.io/p/devbox/typescript-playground-export-forked-6z8mmw?workspaceId=ws_Qd8Yq13nXDQ8o28PXL3wys)
-   - Sign in using Github and fork this sandbox
 
 ## Evaluation Criteria
 1. Proper handling of asynchronous operations
