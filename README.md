@@ -86,6 +86,6 @@ Your function should transform the data into the following format:
 4. Maintainable code
 5. Efficiency of the data transformation
 6. Correct implementation of search/filter functionality
-7. Implementation of caching mechanism
+7. Implementation of caching mechanism (optional)
 
 
